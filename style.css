@@ -1,0 +1,38 @@
+:root{
+  
+}
+
+body{
+  background-image: url("./images/manandrock.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hamburger-icon{
+  margin-left: 97%;
+  margin-top: 1%;
+  width: calc(25px - (0.75 * 25)px);
+  height: calc(17px - (0.75 * 25)px);
+}
+
+.text{
+  color: black;
+  text-align: center;
+  margin-top: 20%;
+  font-family: 'Red Hat Display', sans-serif;
+  animation-name: waves;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+}
+
+@keyframes waves {
+  from{
+    color: black;
+  }
+  to{
+    color: white;
+  }
+}
