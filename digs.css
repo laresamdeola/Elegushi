@@ -7,6 +7,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 ul{
@@ -16,6 +17,7 @@ ul{
   text-align: right;
   text-decoration: none;
   list-style-type: none;
+  display: none;
 }
 
 ul li a{
@@ -36,6 +38,7 @@ ul li a:hover{
   margin-top: 1%;
   width: calc(25px - (0.75 * 25)px);
   height: calc(17px - (0.75 * 25)px);
+  cursor: pointer;
 }
 
 .text{
@@ -125,5 +128,17 @@ ul li a:hover{
     width: 12px;
     height: 12px;
   }
+}
+
+.paragraph{
+  position: absolute;
+  width: 50%;
+  margin: auto;
+  left: 25%;
+  right: 25%;
+  text-align: justify;
+  letter-spacing: 2px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 2.5vh;
 }
 

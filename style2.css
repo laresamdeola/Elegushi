@@ -17,9 +17,10 @@ ul{
   text-align: right;
   text-decoration: none;
   list-style-type: none;
+  display: none;
 }
 
-ul li a{
+.drop-down{
   font-family: 'Red Hat Display', sans-serif;
   font-size: 2.2vh;
   letter-spacing: 2.5px;
@@ -29,7 +30,7 @@ ul li a{
   text-decoration: none;
 }
 
-ul li a:hover{
+.drop-down:hover{
   letter-spacing: 5.0px;
 }
 
@@ -38,6 +39,7 @@ ul li a:hover{
   margin-top: 1%;
   width: calc(25px - (0.75 * 25)px);
   height: calc(17px - (0.75 * 25)px);
+  cursor: pointer;
 }
 
 .back{
