@@ -1,7 +1,5 @@
 let hamburger = document.getElementById("hamburger-icon");
-
-let dropDown = document.getElementById("drop");
-
+let drop = document.getElementById("drop");
 hamburger.addEventListener("click", () => {
-  dropDown.style.display = "block";
+  drop.style.display="block";
 });
