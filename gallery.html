@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Elegushi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="gallery.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="body">
+    <svg class="hamburger-icon" id="hamburger-icon" width="15" height="10" viewBox="0 0 25 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 16.6667H25V13.8889H0V16.6667ZM0 9.72222H25V6.94444H0V9.72222ZM0 0V2.77778H25V0H0Z" fill="black"/>
+</svg>
+    <a href="index.html"><svg class="back" width="30" height="30" viewBox="0 0 30 30"   fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <rect width="30" height="30" fill="url(#pattern0)"/>
+      <defs>
+      <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+        <use xlink:href="#image0_123_94" transform="scale(0.0104167)"/>
+      </pattern>
+      <image id="image0_123_94" width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAACd0lEQVR4nO3bv2oUURiG8ScaNZ2I+KeMrY2ghPUWtLdVQQRJodjZmVIRvAohV5DCyk6DXoBiIdYG46oJSJCNxbAQ1vHMmZzjvDtn3h9MFRK++Z6ZDLvZgJmZmZmZmRVvBDxSDzFUV4BtYB94Ip5lcA4uf3o4Qkfqlu8IHQkt3xH+sxEwJrz86eEHc2YxV/70GFPFsky8fCEvX8jLF/Lyhbx8IS9fyMsX8vIzWDjk942Al8DJjLN0ZQ/YBbaAT8AHYBN4BXwRzhWtzdsLfTomwBtgFTiVbVuZlbr82eMn8Aw4l2dtebT5nV/KsQOsAccz7C/ZUK7+uuMtcCF9hemGHOEbcD19hekuA1/RL0Rx/AbupK8w3ZDvhAlwM32F6dpEmKcXYseAM8AK1dX8gvYX0x5wrevB6/Q1wqwl4BbwnvgI28CyYthZpUQAWAQeUL1SjjmfTeCoZNIZbR7MY+CqZsxol4DPxJ3PfdGMfynpTgA4D7yj+Vy+M0evmEuLcJq458JT1YB1SotwkeotidB5/GDO3sAr7ZnwkObzuCeb7h9KuhMWqf5uEDqH17LpAkr6aOJtwvNPqF7gzZ2YX0ePZdPFW6L5Yrohm65B6E5YE87V1jrhAM91ozWri9Cn5QPcJRxgQzdanIMR+rZ8qOYPBfioGy1en/9J7yzhAFu60YbhBOEAv9r+wMN+LmjI9hu+3mqnRxIGsQwcQMwBxBxAzAHEHEDMAcQcQMwBxBxAzAHEHEDMAcQcQMwBxBxAzAHEHEDMAcQcQMwBxBxAzAHEHEDMAcQcQMwBxBxAzAHEHEDMAcQcQMwBxBxAzAHMzMzMzMzMzMw68geZLlpk8QEZCgAAAABJRU5ErkJggg=="/>
+      </defs>
+    </svg>
+    </a>
+    <a href="gallery.html"><svg class="forward" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="30" height="30" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_123_93" transform="scale(0.0104167)"/>
+</pattern>
+<image id="image0_123_93" width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAACaElEQVR4nO3bvWoUYRhH8aNGUexEicFK0lirIbZWVultDEhKvwoLU3oBCt5DGu/Aawja2lmazu+QQgXXYggEMTPvbtj5v5M5P9gu7D48Z3YzO8yCJEmSJKlXp9IDVGQT+A3spAcZo+fABPgG3ArPMjr7y99/GKFH/y7fCD06bPlG6MEm7cs/GGE1NOOxdh34THkE3wlzYIQKGKECRqiAESpghAoYoQJGqEBvEU4cddIZLQK3aQa/BlwFLgHngTOhmY7iO3AH2E4P0uYC8IBmyD+UHV1DelR72WIJeAHskl/SqCIsAE9o3p7pxfQdofh/wkLpH05pGXgN3JzT89duknzxNZqjIH0kjvIj6B7wi/wiRrn8+xzPs5tBLH+N5paOaYb+CmwBG8AKzfeA030PfohVyj9G48tfZrrP/PfAOnA2MWyBQS1/AXhL2bB7wGPqvhlsUMsHeErZsB+p/5T0BvCFAS1/CfhB97DvgMuhGUsN7sgHeEn3sDvAldSAhQZ35ENzYa3r2s4ezWXdmg3yyAd4SPfAj2LTlRnkkb9vm+5TTc925mSR7m+867Hpygz61sS7dA99LjZduWcMcPkAr2gffCs32tTabk+vcvkAb2gPsJEbbSb/+4FGtcsH+EB7gJXcaDM7+BOlqpcP8In2ABdzox3JJgNYPsBP2gMM8baSmFnuC5rM4TlH62R6gLEzQJgBwgwQZoAwA4QZIMwAYQYIM0CYAcIMEGaAMAOEGSDMAGEGCDNAmAHCDBBmgDADhBkgzABhBggzQJgBwgwQZoAwA4QZIMwAYQYIM0CYASRJkiRJkqSe/AW4EhppoMPYEQAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>
+</a>
+    <h3 class="text">GALLERY</h3>
+    <ul id="drop">
+      <li><a>DIGS</a></li>
+      <li><a>GALLERY</a></li>
+      <li><a>WAVES & SEA SHELLS</a></li>
+      <li><a>PARROT</a></li>
+    </ul>
+    <!-- ------------- Slide One  ----------- -->
+    <svg class="slide-1 slides" id="pagination-one" width="16" height="16" viewBox="0 0 31 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_134_106)">
+<path d="M15 25C20.5228 25 25 20.5228 25 15C25 9.47715 20.5228 5 15 5C9.47715 5 5 9.47715 5 15C5 20.5228 9.47715 25 15 25Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_134_106" x="-2" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="2" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.75 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_134_106"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_134_106" result="shape"/>
+</filter>
+</defs>
+</svg>
+
+      <!-- ------------- Slide Two  ----------- -->
+    <svg class="slide-2 slides" id="pagination-two" width="16" height="16" viewBox="0 0 31 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_134_106)">
+<path d="M15 25C20.5228 25 25 20.5228 25 15C25 9.47715 20.5228 5 15 5C9.47715 5 5 9.47715 5 15C5 20.5228 9.47715 25 15 25Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_134_106" x="-2" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="2" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.75 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_134_106"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_134_106" result="shape"/>
+</filter>
+</defs>
+</svg>
+
+      <!-- ------------- Slide Three  ----------- -->
+    <svg class="slide-3 slides" id="pagination-three" width="16" height="16" viewBox="0 0 31 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_134_106)">
+<path d="M15 25C20.5228 25 25 20.5228 25 15C25 9.47715 20.5228 5 15 5C9.47715 5 5 9.47715 5 15C5 20.5228 9.47715 25 15 25Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_134_106" x="-2" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="2" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.75 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_134_106"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_134_106" result="shape"/>
+</filter>
+</defs>
+</svg>
+
+      <!-- ------------- Slide Four  ----------- -->
+    <svg class="slide-4 slides" id="pagination-four" width="16" height="16" viewBox="0 0 31 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_134_106)">
+<path d="M15 25C20.5228 25 25 20.5228 25 15C25 9.47715 20.5228 5 15 5C9.47715 5 5 9.47715 5 15C5 20.5228 9.47715 25 15 25Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_134_106" x="-2" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="2" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.75 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_134_106"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_134_106" result="shape"/>
+</filter>
+</defs>
+</svg>
+
+      <!-- ------------- Slide Five  ----------- -->
+    <svg class="slide-5 slides" id="pagination-five" width="16" height="16" viewBox="0 0 31 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_134_106)">
+<path d="M15 25C20.5228 25 25 20.5228 25 15C25 9.47715 20.5228 5 15 5C9.47715 5 5 9.47715 5 15C5 20.5228 9.47715 25 15 25Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_134_106" x="-2" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="2" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.75 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_134_106"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_134_106" result="shape"/>
+</filter>
+</defs>
+</svg>
+
+    <script src="gallery.js"></script>
+  </body>
+</html>

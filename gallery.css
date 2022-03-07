@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: url("./images/boat.jpg");
+  background-image: url("./images/fisherman.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -41,6 +41,32 @@ ul li a:hover{
   width: calc(25px - (0.75 * 25)px);
   height: calc(17px - (0.75 * 25)px);
   cursor: pointer;
+}
+
+.slides{
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.75));
+  position: absolute;
+  left: 1.5%;
+  right: 16.67%;
+  top: 95%;
+  bottom: 0%;
+  cursor: pointer;
+}
+
+.slide-2{
+  left: 4%;
+}
+
+.slide-3{
+  left: 6.5%;
+}
+
+.slide-4{
+  left: 9%;
+}
+
+.slide-5{
+  left: 11.5%;
 }
 
 .text{
