@@ -33,6 +33,7 @@ ul li a{
 
 ul li a:hover{
   letter-spacing: 5.0px;
+  color: white;
 }
 
 .hamburger-icon{
